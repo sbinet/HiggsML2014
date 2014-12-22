@@ -6,8 +6,25 @@ go-higgsml
 
 ## Installation
 
+First, you'll need to install the ``Go`` toolchain for your platform (if not already done.)
+Instructions to do so are here:
+ [golang.org/doc/install](http://golang.org/doc/install).
+
+Then, it is a simple matter of:
+
 ```sh
 $ go get github.com/ATLAS-outreach/HiggsML2014/scripts/go-higgsml
+```
+
+## Usage
+
+```sh
+$ go-higgsml -h
+Usage of go-higgsml:
+ $ go-higgsml [options] [input-data-file [output.csv]]
+
+Options:
+  -cut=-22: cut-off value
 ```
 
 ## Example
